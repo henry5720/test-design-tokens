@@ -4,6 +4,7 @@
 
 ## 🛠 工具整合
 - **Figma 插件**: [Tokens Studio for Figma](https://tokens.studio/)
+- **前端工具**: [storybook](https://storybook.js.org/)
 - **同步對象**: `teamsync-frontend` 儲存庫
 
 ## 命名規範
@@ -19,4 +20,4 @@
 
 ## 參考文件
 - **antd figma**: [Ant Design Open Source](https://www.figma.com/community/file/831698976089873405)
-- **Design Token 簡介**: [Design Token](https://zhuanlan.zhihu.com/p/499465845)
+- **Design Token 介紹**: [Design Token](https://zhuanlan.zhihu.com/p/499465845)
