@@ -1,4 +1,4 @@
-# TeamSync Design Tokens (Test)
+# Test Design Tokens
 
 這是 TeamSync 專案的設計變數 (Design Tokens) 來源。
 
