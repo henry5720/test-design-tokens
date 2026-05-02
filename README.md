@@ -16,3 +16,7 @@
 1. 在 Figma 修改 Token。
 2. 使用 Tokens Studio 點擊 "Push" 到此儲存庫。
 3. 前端專案的 GitHub Actions 將自動偵測變更並開啟 PR。
+
+## 參考文件
+- **antd figma**: [Ant Design Open Source](https://www.figma.com/community/file/831698976089873405)
+- **Design Token 簡介**: [Design Token](https://zhuanlan.zhihu.com/p/499465845)
