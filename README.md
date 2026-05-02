@@ -5,7 +5,6 @@
 ## 🛠 工具整合
 - **Figma 插件**: [Tokens Studio for Figma](https://tokens.studio/)
 - **前端工具**: [storybook](https://storybook.js.org/)
-- **同步對象**: `teamsync-frontend` 儲存庫
 
 ## 命名規範
 我們採用 Ant Design 5.0 的 Token 結構：
