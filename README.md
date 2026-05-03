@@ -1,6 +1,6 @@
 # Test Design Tokens
 
-這是 TeamSync 專案的設計變數 (Design Tokens) 來源。
+這是專案的設計變數 (Design Tokens) 來源。
 
 ## 🛠 工具整合
 - **Figma 插件**: [Tokens Studio for Figma](https://tokens.studio/)
