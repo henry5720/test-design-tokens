@@ -16,14 +16,23 @@
 1. 在 Tokens Studio 中點擊右上角的 **Settings** (齒輪圖示)。
 2. 在 **Sync Providers** 中點擊 **Add New** -> 選擇 **GitHub**。
 3. 填入以下參數：
-   - **Name**: `TeamSync Tokens`
-   - **Personal Access Token**: (請貼入您的 GitHub PAT，權限需包含 `repo`)
-   - **Repository**: `henry5720/teamsync-design-tokens`
-   - **Branch**: `main`
-   - **File Path**: `tokens.json`
+    - **Name**: `TeamSync Tokens`
+    - **Personal Access Token**: (請貼入您的 GitHub PAT，權限需包含 `repo`)
+    - **Repository**: `ShuChenAI/teamsync-ui-design-token`
+    - **Branch**: `main`
+    - **File Path**: `tokens.json`
 4. 點擊 **Save Config**。
 
+### 3. 管理員設定 (GitHub Secrets)
+為了讓 CI 能跨倉庫讀取私有的 Token 庫，管理員需完成以下設定：
+1. 建立一個具備 `repo` 讀取權限的 **Personal Access Token (PAT)**。
+2. 前往 `teamsync-frontend` 儲存庫的 **Settings > Secrets and variables > Actions**。
+3. 點擊 **New repository secret**：
+   - **Name**: `PAT_TOKEN`
+   - **Value**: (貼入產生的 Token)
+
 ---
+
 
 ## 🎨 Token 管理規範
 

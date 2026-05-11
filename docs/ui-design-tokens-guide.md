@@ -99,10 +99,11 @@
    - 授權 Tokens Studio 存取
 
 4. **設定 Repository**
-   - **Repository:** `ShuChenAI/teamsync-design-tokens`
-   - **Branch:** `main`
-   - **File Path:** `tokens.json`
-   - **Personal Access Token:** 請向前端工程師索取（或自己建立，見附錄）
+    - **Repository:** `ShuChenAI/teamsync-ui-design-token`
+    - **Branch:** `main`
+    - **File Path:** `tokens.json`
+    - **Personal Access Token:** 請向前端工程師索取（或自己建立，見附錄 A）
+
 
 5. **測試連接**
    - 點擊 `Test Connection`
@@ -507,7 +508,8 @@ color.button.primary = {color.primary.500}  ← 參考另一個 token
 ### A. 建立 GitHub Personal Access Token
 
 **為什麼需要？**
-- Tokens Studio 需要權限才能 Push 到 GitHub
+- **設計師端**：Tokens Studio 插件需要權限才能 Push 到 GitHub。
+- **CI/CD 端**：GitHub Actions 需要 `PAT_TOKEN` (Secret) 才能跨倉庫讀取私有的 `teamsync-ui-design-token`。
 
 **步驟：**
 
@@ -542,7 +544,7 @@ color.button.primary = {color.primary.500}  ← 參考另一個 token
 
 - **Tokens Studio 官方文件：** https://docs.tokens.studio/
 - **Storybook：** https://shuchenai.github.io/teamsync-frontend/
-- **GitHub Repo (Tokens)：** https://github.com/ShuChenAI/teamsync-design-tokens
+- **GitHub Repo (Tokens)：** https://github.com/ShuChenAI/teamsync-ui-design-token
 - **GitHub Repo (Frontend)：** https://github.com/ShuChenAI/teamsync-frontend
 
 ### C. 聯絡資訊
